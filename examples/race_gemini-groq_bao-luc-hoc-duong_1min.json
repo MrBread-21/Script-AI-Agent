@@ -1,0 +1,586 @@
+{
+  "topic": "Bạo lực học đường",
+  "status": "best_effort",
+  "reason": "max_iterations_reached",
+  "framework": "RACE",
+  "provider": "gemini/gemini-3.6-flash",
+  "judge": "groq/openai/gpt-oss-120b",
+  "script": "Scene 1 — 00:00–00:04\nVisual/Action:\nCận cảnh chiếc cặp sách bị hất văng xuống sàn hành lang với tiếng va chạm mạnh. Máy quay chuyển nhanh sang ánh mắt sợ hãi, rấn nước mắt của một học sinh. Chữ xuất hiện: BẠO LỰC HỌC ĐƯỜNG - Đừng im lặng!\nDialogue/Narration:\nBạn có chắc con mình, hoặc chính bạn, đang an toàn ở trường?\n\nScene 2 — 00:04–00:10\nVisual/Action:\nKhung hình chia đôi: Bên trái học sinh THCS ngồi thu mình nhìn điện thoại im lặng, bên phải người mẹ đứng ngoài cửa thở dài đầy âu lo. Chữ trên màn hình: Dấu hiệu âm thầm.\nDialogue/Narration:\nDấu hiệu bạo lực thường ẩn sau sự im lặng của con và nỗi lo của cha mẹ.\n\nScene 3 — 00:10–00:20\nVisual/Action:\nĐoạn 1: Học sinh bị giật mạnh balo và xô ngã. Đoạn 2: Một nhóm bạn chỉ tay thì thầm xúc phạm, nạn nhân cúi gục mặt né tránh. Chữ nổi bật: Thể xác & Lời nói.\nDialogue/Narration:\nĐó là bạo lực thể xác như đánh đập, trấn tiền. Hay bạo lực lời nói như lăng mạ, miệt thị.\n\nScene 4 — 00:20–00:32\nVisual/Action:\nMàn hình điện thoại liên tục nổ tin nhắn miệt thị trong nhóm chat, chuyển cảnh học sinh ngồi một mình ở góc sân trường vắng lặng. Chữ xuất hiện: Bạo lực mạng & Cô lập.\nDialogue/Narration:\nBạo lực mạng với tin đồn lan truyền 24/7, cùng hành vi cô lập, tẩy chay khiến nạn nhân hoàn toàn đơn độc.\n\nScene 5 — 00:32–00:44\nVisual/Action:\nChuỗi hình ảnh nhanh: Học sinh kéo chăn trùm đầu sợ hãi khi chuông báo thức reo, đẩy bỏ bát cơm đầy, ngồi thu mình ở góc phòng từ chối nói chuyện. Người mẹ nhẹ nhàng đến bên nắm lấy tay con. Chữ: Nhận diện thay đổi.\nDialogue/Narration:\nKhi trẻ sợ đi học, bỏ ăn hay thu mình lại, đó là lúc con đang rất cần được bảo vệ.\n\nScene 6 — 00:44–01:00\nVisual/Action:\nHọc sinh mỉm cười tự tin khi trải lòng với cô giáo tư vấn. Đồ họa số điện thoại 111 xuất hiện to, rõ cùng biểu tượng Thích và Chia sẻ nhấp nháy trên giao diện YouTube Shorts. Chữ: Tổng đài 111 — Chung tay bảo vệ con trẻ!\nDialogue/Narration:\nĐừng chịu đựng một mình. Hãy chia sẻ với thầy cô, cha mẹ hoặc gọi ngay Tổng đài 111. Nhấn Thích và Chia sẻ video này vì một môi trường học đường an toàn!",
+  "final_score": 90.9,
+  "final_max": 100,
+  "percentage": 90.9,
+  "rule_based": {
+    "hard_score": 44.8,
+    "hard_max": 45,
+    "breakdown": {
+      "duration": 15.0,
+      "timeline": 5.0,
+      "completeness": 10.0,
+      "format": 5.0,
+      "speech_rate": 9.8
+    },
+    "duration_expected": 60,
+    "duration_actual": 60,
+    "duration_exact": true,
+    "duration_compliance": 1.0,
+    "timeline_valid": true,
+    "scene_count": 6,
+    "narration_words": 131,
+    "words_per_second": 2.18,
+    "issues": [
+      "Lời dẫn có 131 tiếng cho 60 giây (2.2 tiếng/giây). Thêm lời dẫn để đạt khoảng 132–216 tiếng."
+    ],
+    "scenes": [
+      {
+        "number": 1,
+        "start": 0,
+        "end": 4,
+        "words": 13,
+        "valid_clock": true
+      },
+      {
+        "number": 2,
+        "start": 4,
+        "end": 10,
+        "words": 18,
+        "valid_clock": true
+      },
+      {
+        "number": 3,
+        "start": 10,
+        "end": 20,
+        "words": 21,
+        "valid_clock": true
+      },
+      {
+        "number": 4,
+        "start": 20,
+        "end": 32,
+        "words": 24,
+        "valid_clock": true
+      },
+      {
+        "number": 5,
+        "start": 32,
+        "end": 44,
+        "words": 21,
+        "valid_clock": true
+      },
+      {
+        "number": 6,
+        "start": 44,
+        "end": 60,
+        "words": 34,
+        "valid_clock": true
+      }
+    ]
+  },
+  "llm_judge": {
+    "scores": {
+      "topic_relevance": 9,
+      "audience_fit": 8,
+      "structure": 9,
+      "pacing": 7,
+      "dialogue": 7,
+      "hook": 9,
+      "CTA": 9,
+      "coherence": 9
+    },
+    "issues": [
+      "Scene 2: Hình ảnh mẹ đứng ngoài cửa chưa truyền tải đủ lo lắng; nên thay bằng cảnh mẹ nhìn điện thoại hoặc trò chuyện với giáo viên để nhấn mạnh mối quan hệ cha mẹ-học sinh.",
+      "Dialogue/Narration: Một số câu quá dài cho video 1 phút (ví dụ Scene 3 và Scene 4); cần rút ngắn thành câu ngắn, dễ đọc để tránh vội vã.",
+      "Scene 5: Chuỗi hình ảnh nhanh có thể gây rối cho người xem; nên giảm số cảnh hoặc dùng chuyển cảnh mượt mà hơn để làm nổi bật hành động mẹ an ủi.",
+      "CTA: Thêm hashtag hoặc lời kêu gọi cụ thể cho nền tảng Shorts (ví dụ #BảoVệTrẻ) để tăng khả năng lan truyền.",
+      "Scene 6: Số điện thoại 111 xuất hiện quá nhanh; nên để trên màn hình ít nhất 3‑4 giây để người xem có thời gian ghi nhớ."
+    ],
+    "missing_keys": [],
+    "soft_score": 46.1,
+    "soft_max": 55,
+    "judge_model": "groq/openai/gpt-oss-120b",
+    "raw_evaluation": "{\"scores\": {\"topic_relevance\": 9, \"audience_fit\": 8, \"structure\": 9, \"pacing\": 7, \"dialogue\": 7, \"hook\": 9, \"CTA\": 9, \"coherence\": 9}, \"issues\": [\"Scene 2: Hình ảnh mẹ đứng ngoài cửa chưa truyền tải đủ lo lắng; nên thay bằng cảnh mẹ nhìn điện thoại hoặc trò chuyện với giáo viên để nhấn mạnh mối quan hệ cha mẹ-học sinh.\", \"Dialogue/Narration: Một số câu quá dài cho video 1 phút (ví dụ Scene 3 và Scene 4); cần rút ngắn thành câu ngắn, dễ đọc để tránh vội vã.\", \"Scene 5: Chuỗi hình ảnh nhanh có thể gây rối cho người xem; nên giảm số cảnh hoặc dùng chuyển cảnh mượt mà hơn để làm nổi bật hành động mẹ an ủi.\", \"CTA: Thêm hashtag hoặc lời kêu gọi cụ thể cho nền tảng Shorts (ví dụ #BảoVệTrẻ) để tăng khả năng lan truyền.\", \"Scene 6: Số điện thoại 111 xuất hiện quá nhanh; nên để trên màn hình ít nhất 3‑4 giây để người xem có thời gian ghi nhớ.\"]}",
+    "latency": 2.0757010999996055,
+    "usage": {
+      "input_tokens": 1264,
+      "output_tokens": 694,
+      "total_tokens": 1958
+    }
+  },
+  "best_iteration": 3,
+  "iterations": 4,
+  "total_time": 375.21,
+  "usage": {
+    "input_tokens": 14089,
+    "output_tokens": 6091,
+    "total_tokens": 29740
+  },
+  "history": [
+    {
+      "iteration": 1,
+      "mode": "initial",
+      "script": "Scene 1 — 00:00–00:04\nVisual/Action:\nCận cảnh một chiếc cặp sách rơi mạnh xuống sàn hành lang lớp học, sách vở văng ra. Góc quay nghiêng sống động. Chữ xuất hiện nhanh: BẠO LỰC HỌC ĐƯỜNG - Không chỉ là đánh nhau!\nDialogue/Narration:\nBạo lực học đường không chỉ là những cú đấm hay xô xát.\n\nScene 2 — 00:04–00:10\nVisual/Action:\nKhung hình chia đôi: Bên trái là học sinh THCS lặng lẽ nhìn điện thoại, bên phải là người mẹ lo lắng nhìn qua khe cửa. Chữ trên màn hình: Nhận diện & Lên tiếng.\nDialogue/Narration:\nNó âm thầm diễn ra mỗi ngày dưới nhiều hình thức mà cả học sinh lẫn phụ huynh đều có thể bỏ lỡ.\n\nScene 3 — 00:10–00:20\nVisual/Action:\nChuyển cảnh nhanh 2 phân đoạn. Đoạn 1: Học sinh bị giật balo, vắt nạt. Đoạn 2: Một nhóm bạn chỉ tay thì thầm, nạn nhân cúi mặt. Chữ nổi bật: Thể xác & Lời nói.\nDialogue/Narration:\nĐó là bạo lực thể xác như đánh đập, trấn trấn tiền, hoặc bạo lực lời nói như lăng mạ, miệt thị hình thể và gia đình.\n\nScene 4 — 00:20–00:32\nVisual/Action:\nMàn hình điện thoại hiển thị hàng loạt tin nhắn xúc phạm trong nhóm chat, chuyển sang cảnh học sinh ngồi một mình ở góc sân trường cô quạnh. Chữ: Bạo lực mạng & Tẩy chay.\nDialogue/Narration:\nNguy hiểm hơn là bạo lực mạng với tin đồn độc hại lan truyền 24/7, cùng hành vi cô lập, tẩy chay khiến nạn nhân đơn độc.\n\nScene 5 — 00:32–00:44\nVisual/Action:\nBiểu hiện chèn lên màn hình: Sợ đi học, sụt cân, khép kín. Phụ huynh ngồi xuống nắm tay con động viên dịu dàng. Chữ: Đừng chịu đựng một mình!\nDialogue/Narration:\nNếu thấy mình hoặc con có dấu hiệu sợ đến trường, sụt giảm học lực hay thu mình lại, đừng bao giờ im lặng.\n\nScene 6 — 00:44–00:53\nVisual/Action:\nHọc sinh gật đầu tin tưởng khi nói chuyện với cô giáo tư vấn. Đồ họa số điện thoại 111 xuất hiện to, rõ ràng giữa màn hình. Chữ: Gọi Tổng đài 111.\nDialogue/Narration:\nHãy chia sẻ ngay với cha mẹ, thầy cô hoặc gọi Tổng đài 111. Tìm sự giúp đỡ không phải yếu đuối, đó là dũng cảm.\n\nScene 7 — 00:53–01:00\nVisual/Action:\nHọc sinh mỉm cười cùng bạn bè bước ra sân trường ngập nắng. Biểu tượng nút Đăng ký kênh và Chia sẻ nhấp nháy nổi bật. Chữ: Vì một môi trường học đường an toàn!\nDialogue/Narration:\nĐừng để ai phải chịu đựng một mình. Hãy đăng ký kênh và chia sẻ video này vì một môi trường học đường an toàn!",
+      "prompt": "[ROLE]\nBạn là biên kịch video ngắn và chiến lược gia nội dung chuyên nghiệp, chuyên về:\n- Video giáo dục dạng ngắn cho TikTok, YouTube Shorts, Reels\n- Kể chuyện bằng hình ảnh và nhịp dựng nhanh\n- Viết lời dẫn (voice-over) tự nhiên, phù hợp từng nhóm khán giả\n\n[ACTION]\nChuyển chủ đề và yêu cầu sản xuất dưới đây thành một kịch bản mạch lạc, hấp dẫn và\nsẵn sàng sản xuất.\n\n[CONTEXT]\nYÊU CẦU CỦA NGƯỜI DÙNG\nChủ đề: Bạo lực học đường\nThời lượng: 1 phút (60 giây)\nNền tảng: YouTube Shorts\nĐối tượng khán giả: học sinh THCS và phụ huynh\nGHI CHÚ TỪ NGƯỜI DÙNG\nĐịnh hướng nội dung: Nhận diện các dạng bạo lực học đường và cách tìm kiếm sự giúp đỡ\n\nKIẾN THỨC ĐƯỢC TRUY XUẤT (định hướng, không ghi đè yêu cầu của người dùng)\nCấu trúc: Hook -> Introduction -> Main Content -> Conclusion -> CTA\nNhịp độ: Nhịp nhanh; đổi hình ảnh mỗi 3–8 giây; Hook nằm trong 3–5 giây đầu; mỗi cảnh truyền tải đúng một ý.\nLời thoại: Giọng văn tự nhiên như đang nói chuyện, câu ngắn, dùng ngôn ngữ phù hợp với khán giả; tránh thuật ngữ khó nếu không giải thích.\n\nNGÔN NGỮ ĐẦU RA\nToàn bộ nội dung kịch bản (Visual/Action và Dialogue/Narration) phải viết bằng tiếng Việt,\nkể cả khi chủ đề hoặc dữ liệu đầu vào là tiếng Anh. Chỉ giữ nguyên tiếng Anh cho tên riêng,\nthương hiệu hoặc thuật ngữ kỹ thuật không có bản dịch tự nhiên.\n\n[EXECUTE]\n1. Xây dựng kịch bản thành chuỗi cảnh theo mạch Hook → Introduction → Main Content → Conclusion → CTA.\n2. Mỗi cảnh gồm: số thứ tự, thời gian bắt đầu–kết thúc (MM:SS), Visual/Action, Dialogue/Narration.\n3. Điều chỉnh từ vựng và độ sâu giải thích theo học sinh THCS và phụ huynh.\n4. Điều chỉnh nhịp độ và cách trình bày theo YouTube Shorts.\n5. Giữ mạch lạc từ đầu đến cuối; hình ảnh phải khớp với lời dẫn.\n\nQUY TẮC THỜI LƯỢNG\n- Cảnh đầu tiên bắt đầu tại 00:00; cảnh cuối cùng kết thúc CHÍNH XÁC tại 01:00 (60 giây).\n- Mỗi cảnh bắt đầu đúng tại thời điểm cảnh trước kết thúc: không hở, không chồng lấn.\n- Tổng lời dẫn khoảng 132–216 tiếng (âm tiết), tương đương tốc độ đọc tự nhiên ~2,8 tiếng/giây.\n- Lượng lời dẫn của từng cảnh phải tương xứng với độ dài cảnh đó.\n\nĐỊNH DẠNG BẮT BUỘC\nGiữ nguyên các nhãn tiếng Anh \"Scene\", \"Visual/Action:\", \"Dialogue/Narration:\" để hệ thống đọc tự động.\n\nScene N — MM:SS–MM:SS\nVisual/Action:\n<hình ảnh, góc quay, chuyển động, chữ trên màn hình>\nDialogue/Narration:\n<lời sẽ được đọc thành tiếng — không ghi chú đạo diễn trong phần này>\n\n- Không dùng markdown (không **, #, bảng, gạch đầu dòng cho nhãn).\n- Không thêm tiêu đề, lời chào, giải thích hay ghi chú bên ngoài các cảnh.",
+      "score": 89.7,
+      "max_score": 100,
+      "percentage": 89.7,
+      "rule_based": {
+        "hard_score": 45.0,
+        "hard_max": 45,
+        "breakdown": {
+          "duration": 15.0,
+          "timeline": 5.0,
+          "completeness": 10.0,
+          "format": 5.0,
+          "speech_rate": 10.0
+        },
+        "duration_expected": 60,
+        "duration_actual": 60,
+        "duration_exact": true,
+        "duration_compliance": 1.0,
+        "timeline_valid": true,
+        "scene_count": 7,
+        "narration_words": 166,
+        "words_per_second": 2.77,
+        "issues": [],
+        "scenes": [
+          {
+            "number": 1,
+            "start": 0,
+            "end": 4,
+            "words": 13,
+            "valid_clock": true
+          },
+          {
+            "number": 2,
+            "start": 4,
+            "end": 10,
+            "words": 23,
+            "valid_clock": true
+          },
+          {
+            "number": 3,
+            "start": 10,
+            "end": 20,
+            "words": 27,
+            "valid_clock": true
+          },
+          {
+            "number": 4,
+            "start": 20,
+            "end": 32,
+            "words": 28,
+            "valid_clock": true
+          },
+          {
+            "number": 5,
+            "start": 32,
+            "end": 44,
+            "words": 24,
+            "valid_clock": true
+          },
+          {
+            "number": 6,
+            "start": 44,
+            "end": 53,
+            "words": 26,
+            "valid_clock": true
+          },
+          {
+            "number": 7,
+            "start": 53,
+            "end": 60,
+            "words": 25,
+            "valid_clock": true
+          }
+        ]
+      },
+      "llm_judge": {
+        "scores": {
+          "topic_relevance": 9,
+          "audience_fit": 8,
+          "structure": 9,
+          "pacing": 7,
+          "dialogue": 6,
+          "hook": 8,
+          "CTA": 9,
+          "coherence": 9
+        },
+        "issues": [
+          "Scene 3: Lời dẫn quá dài, khó đọc trong thời gian ngắn. Nên chia thành 2 câu ngắn hơn, ví dụ “Đó là bạo lực thể xác như đánh đập, trấn tiền. Và bạo lực lời nói như lăng mạ, miệt thị.”",
+          "Scene 5: Mô tả hình ảnh “Biểu hiện chèn lên màn hình: Sợ đi học, sụt cân, khép kín” không rõ ràng. Nên thay bằng cảnh học sinh trầm ngâm, đầu cúi, kèm phụ đề ngắn gọn như “Sợ đi học, giảm cân, rút lui”.",
+          "Scene 5 & Scene 6: Thời lượng quá dài (12s và 9s) khiến các cảnh cuối bị gấp rút. Cân bằng lại bằng cách rút ngắn Scene 5 xuống 8s và Scene 6 xuống 6s, chuyển một số nội dung sang Scene 4 hoặc 7.",
+          "Scene 2: Văn bản “Nhận diện & Lên tiếng” quá chung chung, không truyền tải được hành động cụ thể. Nên sửa thành “Nhận diện dấu hiệu – Nói lên ngay”.",
+          "Scene 7: CTA chỉ nhắc “Đăng ký kênh và chia sẻ video”. Trên Shorts nên thêm lời kêu gọi “Nhấn nút Thích và Chia sẻ” để phù hợp với giao diện nền tảng."
+        ],
+        "missing_keys": [],
+        "soft_score": 44.7,
+        "soft_max": 55,
+        "judge_model": "groq/openai/gpt-oss-120b",
+        "raw_evaluation": "{\"scores\":{\"topic_relevance\":9,\"audience_fit\":8,\"structure\":9,\"pacing\":7,\"dialogue\":6,\"hook\":8,\"CTA\":9,\"coherence\":9},\"issues\":[\"Scene 3: Lời dẫn quá dài, khó đọc trong thời gian ngắn. Nên chia thành 2 câu ngắn hơn, ví dụ “Đó là bạo lực thể xác như đánh đập, trấn tiền. Và bạo lực lời nói như lăng mạ, miệt thị.”\",\"Scene 5: Mô tả hình ảnh “Biểu hiện chèn lên màn hình: Sợ đi học, sụt cân, khép kín” không rõ ràng. Nên thay bằng cảnh học sinh trầm ngâm, đầu cúi, kèm phụ đề ngắn gọn như “Sợ đi học, giảm cân, rút lui”.\",\"Scene 5 & Scene 6: Thời lượng quá dài (12s và 9s) khiến các cảnh cuối bị gấp rút. Cân bằng lại bằng cách rút ngắn Scene 5 xuống 8s và Scene 6 xuống 6s, chuyển một số nội dung sang Scene 4 hoặc 7.\",\"Scene 2: Văn bản “Nhận diện & Lên tiếng” quá chung chung, không truyền tải được hành động cụ thể. Nên sửa thành “Nhận diện dấu hiệu – Nói lên ngay”.\",\"Scene 7: CTA chỉ nhắc “Đăng ký kênh và chia sẻ video”. Trên Shorts nên thêm lời kêu gọi “Nhấn nút Thích và Chia sẻ” để phù hợp với giao diện nền tảng.\"]}",
+        "latency": 2.83047759999954,
+        "usage": {
+          "input_tokens": 1341,
+          "output_tokens": 854,
+          "total_tokens": 2195
+        }
+      },
+      "issues": [
+        "Scene 3: Lời dẫn quá dài, khó đọc trong thời gian ngắn. Nên chia thành 2 câu ngắn hơn, ví dụ “Đó là bạo lực thể xác như đánh đập, trấn tiền. Và bạo lực lời nói như lăng mạ, miệt thị.”",
+        "Scene 5: Mô tả hình ảnh “Biểu hiện chèn lên màn hình: Sợ đi học, sụt cân, khép kín” không rõ ràng. Nên thay bằng cảnh học sinh trầm ngâm, đầu cúi, kèm phụ đề ngắn gọn như “Sợ đi học, giảm cân, rút lui”.",
+        "Scene 5 & Scene 6: Thời lượng quá dài (12s và 9s) khiến các cảnh cuối bị gấp rút. Cân bằng lại bằng cách rút ngắn Scene 5 xuống 8s và Scene 6 xuống 6s, chuyển một số nội dung sang Scene 4 hoặc 7.",
+        "Scene 2: Văn bản “Nhận diện & Lên tiếng” quá chung chung, không truyền tải được hành động cụ thể. Nên sửa thành “Nhận diện dấu hiệu – Nói lên ngay”.",
+        "Scene 7: CTA chỉ nhắc “Đăng ký kênh và chia sẻ video”. Trên Shorts nên thêm lời kêu gọi “Nhấn nút Thích và Chia sẻ” để phù hợp với giao diện nền tảng.",
+        "Cải thiện tiêu chí 'dialogue' (hiện 6/10): Lời dẫn tự nhiên, dễ đọc thành tiếng, câu ngắn gọn.",
+        "Cải thiện tiêu chí 'pacing' (hiện 7/10): Nhịp độ phù hợp nền tảng, phân bổ thời gian giữa các cảnh hợp lý."
+      ]
+    },
+    {
+      "iteration": 2,
+      "mode": "revision",
+      "script": "Scene 1 — 00:00–00:04\nVisual/Action:\nCận cảnh một chiếc cặp sách rơi mạnh xuống sàn hành lang lớp học, sách vở văng ra. Góc quay nghiêng sống động. Chữ xuất hiện nhanh: BẠO LỰC HỌC ĐƯỜNG - Không chỉ là đánh nhau!\nDialogue/Narration:\nBạo lực học đường không chỉ là những cú đấm hay xô xát.\n\nScene 2 — 00:04–00:10\nVisual/Action:\nKhung hình chia đôi: Bên trái là học sinh THCS lặng lẽ nhìn điện thoại, bên phải là người mẹ lo lắng nhìn qua khe cửa. Chữ trên màn hình: Nhận diện dấu hiệu – Nói lên ngay.\nDialogue/Narration:\nNó âm thầm diễn ra mỗi ngày dưới nhiều hình thức mà chúng ta dễ bỏ lỡ.\n\nScene 3 — 00:10–00:20\nVisual/Action:\nChuyển cảnh nhanh 2 phân đoạn. Đoạn 1: Học sinh bị giật balo, vắt nạt. Đoạn 2: Một nhóm bạn chỉ tay thì thầm, nạn nhân cúi mặt. Chữ nổi bật: Thể xác & Lời nói.\nDialogue/Narration:\nĐó là bạo lực thể xác như đánh đập, trấn tiền. Hay bạo lực lời nói như lăng mạ, miệt thị.\n\nScene 4 — 00:20–00:34\nVisual/Action:\nMàn hình điện thoại hiển thị hàng loạt tin nhắn xúc phạm trong nhóm chat, chuyển sang cảnh học sinh ngồi một mình ở góc sân trường cô quạnh. Chữ xuất hiện: Bạo lực mạng & Cô lập.\nDialogue/Narration:\nNguy hiểm hơn là bạo lực mạng với tin đồn độc hại lan truyền 24/7, cùng hành vi cô lập, tẩy chay khiến nạn nhân hoàn toàn đơn độc.\n\nScene 5 — 00:34–00:42\nVisual/Action:\nHọc sinh ngồi gục đầu trầm ngâm góc bàn, dáng vẻ âu lo. Chữ phụ đề xuất hiện: Sợ đi học - Sụt cân - Rút lui. Ngay sau đó, người mẹ ngồi xuống nắm lấy tay con động viên dịu dàng.\nDialogue/Narration:\nNếu thấy trẻ sợ đến trường, sụt giảm học lực hay thu mình lại, đừng bao giờ im lặng.\n\nScene 6 — 00:42–00:50\nVisual/Action:\nHọc sinh gật đầu tin tưởng khi nói chuyện với cô giáo tư vấn. Đồ họa số điện thoại 111 xuất hiện to, rõ ràng giữa màn hình. Chữ: Gọi Tổng đài 111.\nDialogue/Narration:\nHãy chia sẻ với cha mẹ, thầy cô hoặc gọi ngay Tổng đài 111. Tìm sự giúp đỡ là dũng cảm.\n\nScene 7 — 00:50–01:00\nVisual/Action:\nHọc sinh mỉm cười cùng bạn bè bước ra sân trường ngập nắng. Biểu tượng nút Thích và Chia sẻ nhấp nháy nổi bật trên giao diện YouTube Shorts. Chữ: Vì môi trường học đường an toàn!\nDialogue/Narration:\nĐừng để ai phải chịu đựng một mình. Nhấn Thích và Chia sẻ video này vì một môi trường học đường an toàn!",
+      "prompt": "Bạn đang chỉnh sửa một kịch bản video ngắn dựa trên kết quả đánh giá tự động.\n\n=== YÊU CẦU GỐC ===\n[ROLE]\nBạn là biên kịch video ngắn và chiến lược gia nội dung chuyên nghiệp, chuyên về:\n- Video giáo dục dạng ngắn cho TikTok, YouTube Shorts, Reels\n- Kể chuyện bằng hình ảnh và nhịp dựng nhanh\n- Viết lời dẫn (voice-over) tự nhiên, phù hợp từng nhóm khán giả\n\n[ACTION]\nChuyển chủ đề và yêu cầu sản xuất dưới đây thành một kịch bản mạch lạc, hấp dẫn và\nsẵn sàng sản xuất.\n\n[CONTEXT]\nYÊU CẦU CỦA NGƯỜI DÙNG\nChủ đề: Bạo lực học đường\nThời lượng: 1 phút (60 giây)\nNền tảng: YouTube Shorts\nĐối tượng khán giả: học sinh THCS và phụ huynh\nGHI CHÚ TỪ NGƯỜI DÙNG\nĐịnh hướng nội dung: Nhận diện các dạng bạo lực học đường và cách tìm kiếm sự giúp đỡ\n\nKIẾN THỨC ĐƯỢC TRUY XUẤT (định hướng, không ghi đè yêu cầu của người dùng)\nCấu trúc: Hook -> Introduction -> Main Content -> Conclusion -> CTA\nNhịp độ: Nhịp nhanh; đổi hình ảnh mỗi 3–8 giây; Hook nằm trong 3–5 giây đầu; mỗi cảnh truyền tải đúng một ý.\nLời thoại: Giọng văn tự nhiên như đang nói chuyện, câu ngắn, dùng ngôn ngữ phù hợp với khán giả; tránh thuật ngữ khó nếu không giải thích.\n\nNGÔN NGỮ ĐẦU RA\nToàn bộ nội dung kịch bản (Visual/Action và Dialogue/Narration) phải viết bằng tiếng Việt,\nkể cả khi chủ đề hoặc dữ liệu đầu vào là tiếng Anh. Chỉ giữ nguyên tiếng Anh cho tên riêng,\nthương hiệu hoặc thuật ngữ kỹ thuật không có bản dịch tự nhiên.\n\n[EXECUTE]\n1. Xây dựng kịch bản thành chuỗi cảnh theo mạch Hook → Introduction → Main Content → Conclusion → CTA.\n2. Mỗi cảnh gồm: số thứ tự, thời gian bắt đầu–kết thúc (MM:SS), Visual/Action, Dialogue/Narration.\n3. Điều chỉnh từ vựng và độ sâu giải thích theo học sinh THCS và phụ huynh.\n4. Điều chỉnh nhịp độ và cách trình bày theo YouTube Shorts.\n5. Giữ mạch lạc từ đầu đến cuối; hình ảnh phải khớp với lời dẫn.\n\nQUY TẮC THỜI LƯỢNG\n- Cảnh đầu tiên bắt đầu tại 00:00; cảnh cuối cùng kết thúc CHÍNH XÁC tại 01:00 (60 giây).\n- Mỗi cảnh bắt đầu đúng tại thời điểm cảnh trước kết thúc: không hở, không chồng lấn.\n- Tổng lời dẫn khoảng 132–216 tiếng (âm tiết), tương đương tốc độ đọc tự nhiên ~2,8 tiếng/giây.\n- Lượng lời dẫn của từng cảnh phải tương xứng với độ dài cảnh đó.\n\nĐỊNH DẠNG BẮT BUỘC\nGiữ nguyên các nhãn tiếng Anh \"Scene\", \"Visual/Action:\", \"Dialogue/Narration:\" để hệ thống đọc tự động.\n\nScene N — MM:SS–MM:SS\nVisual/Action:\n<hình ảnh, góc quay, chuyển động, chữ trên màn hình>\nDialogue/Narration:\n<lời sẽ được đọc thành tiếng — không ghi chú đạo diễn trong phần này>\n\n- Không dùng markdown (không **, #, bảng, gạch đầu dòng cho nhãn).\n- Không thêm tiêu đề, lời chào, giải thích hay ghi chú bên ngoài các cảnh.\n\n=== KỊCH BẢN HIỆN TẠI (phiên bản 1, đạt 89.7%) ===\nScene 1 — 00:00–00:04\nVisual/Action:\nCận cảnh một chiếc cặp sách rơi mạnh xuống sàn hành lang lớp học, sách vở văng ra. Góc quay nghiêng sống động. Chữ xuất hiện nhanh: BẠO LỰC HỌC ĐƯỜNG - Không chỉ là đánh nhau!\nDialogue/Narration:\nBạo lực học đường không chỉ là những cú đấm hay xô xát.\n\nScene 2 — 00:04–00:10\nVisual/Action:\nKhung hình chia đôi: Bên trái là học sinh THCS lặng lẽ nhìn điện thoại, bên phải là người mẹ lo lắng nhìn qua khe cửa. Chữ trên màn hình: Nhận diện & Lên tiếng.\nDialogue/Narration:\nNó âm thầm diễn ra mỗi ngày dưới nhiều hình thức mà cả học sinh lẫn phụ huynh đều có thể bỏ lỡ.\n\nScene 3 — 00:10–00:20\nVisual/Action:\nChuyển cảnh nhanh 2 phân đoạn. Đoạn 1: Học sinh bị giật balo, vắt nạt. Đoạn 2: Một nhóm bạn chỉ tay thì thầm, nạn nhân cúi mặt. Chữ nổi bật: Thể xác & Lời nói.\nDialogue/Narration:\nĐó là bạo lực thể xác như đánh đập, trấn trấn tiền, hoặc bạo lực lời nói như lăng mạ, miệt thị hình thể và gia đình.\n\nScene 4 — 00:20–00:32\nVisual/Action:\nMàn hình điện thoại hiển thị hàng loạt tin nhắn xúc phạm trong nhóm chat, chuyển sang cảnh học sinh ngồi một mình ở góc sân trường cô quạnh. Chữ: Bạo lực mạng & Tẩy chay.\nDialogue/Narration:\nNguy hiểm hơn là bạo lực mạng với tin đồn độc hại lan truyền 24/7, cùng hành vi cô lập, tẩy chay khiến nạn nhân đơn độc.\n\nScene 5 — 00:32–00:44\nVisual/Action:\nBiểu hiện chèn lên màn hình: Sợ đi học, sụt cân, khép kín. Phụ huynh ngồi xuống nắm tay con động viên dịu dàng. Chữ: Đừng chịu đựng một mình!\nDialogue/Narration:\nNếu thấy mình hoặc con có dấu hiệu sợ đến trường, sụt giảm học lực hay thu mình lại, đừng bao giờ im lặng.\n\nScene 6 — 00:44–00:53\nVisual/Action:\nHọc sinh gật đầu tin tưởng khi nói chuyện với cô giáo tư vấn. Đồ họa số điện thoại 111 xuất hiện to, rõ ràng giữa màn hình. Chữ: Gọi Tổng đài 111.\nDialogue/Narration:\nHãy chia sẻ ngay với cha mẹ, thầy cô hoặc gọi Tổng đài 111. Tìm sự giúp đỡ không phải yếu đuối, đó là dũng cảm.\n\nScene 7 — 00:53–01:00\nVisual/Action:\nHọc sinh mỉm cười cùng bạn bè bước ra sân trường ngập nắng. Biểu tượng nút Đăng ký kênh và Chia sẻ nhấp nháy nổi bật. Chữ: Vì một môi trường học đường an toàn!\nDialogue/Narration:\nĐừng để ai phải chịu đựng một mình. Hãy đăng ký kênh và chia sẻ video này vì một môi trường học đường an toàn!\n\n=== CÁC VẤN ĐỀ CẦN SỬA (ưu tiên từ trên xuống) ===\n1. Scene 3: Lời dẫn quá dài, khó đọc trong thời gian ngắn. Nên chia thành 2 câu ngắn hơn, ví dụ “Đó là bạo lực thể xác như đánh đập, trấn tiền. Và bạo lực lời nói như lăng mạ, miệt thị.”\n2. Scene 5: Mô tả hình ảnh “Biểu hiện chèn lên màn hình: Sợ đi học, sụt cân, khép kín” không rõ ràng. Nên thay bằng cảnh học sinh trầm ngâm, đầu cúi, kèm phụ đề ngắn gọn như “Sợ đi học, giảm cân, rút lui”.\n3. Scene 5 & Scene 6: Thời lượng quá dài (12s và 9s) khiến các cảnh cuối bị gấp rút. Cân bằng lại bằng cách rút ngắn Scene 5 xuống 8s và Scene 6 xuống 6s, chuyển một số nội dung sang Scene 4 hoặc 7.\n4. Scene 2: Văn bản “Nhận diện & Lên tiếng” quá chung chung, không truyền tải được hành động cụ thể. Nên sửa thành “Nhận diện dấu hiệu – Nói lên ngay”.\n5. Scene 7: CTA chỉ nhắc “Đăng ký kênh và chia sẻ video”. Trên Shorts nên thêm lời kêu gọi “Nhấn nút Thích và Chia sẻ” để phù hợp với giao diện nền tảng.\n6. Cải thiện tiêu chí 'dialogue' (hiện 6/10): Lời dẫn tự nhiên, dễ đọc thành tiếng, câu ngắn gọn.\n7. Cải thiện tiêu chí 'pacing' (hiện 7/10): Nhịp độ phù hợp nền tảng, phân bổ thời gian giữa các cảnh hợp lý.\n\n=== NHIỆM VỤ ===\nViết lại TOÀN BỘ kịch bản thành phiên bản mới:\n- Sửa trực tiếp từng vấn đề ở trên.\n- Giữ lại những phần đang tốt (ý tưởng, hình ảnh, câu chữ hay).\n- Không giải thích những gì đã sửa.\n\nQUY TẮC THỜI LƯỢNG\n- Cảnh đầu tiên bắt đầu tại 00:00; cảnh cuối cùng kết thúc CHÍNH XÁC tại 01:00 (60 giây).\n- Mỗi cảnh bắt đầu đúng tại thời điểm cảnh trước kết thúc: không hở, không chồng lấn.\n- Tổng lời dẫn khoảng 132–216 tiếng (âm tiết), tương đương tốc độ đọc tự nhiên ~2,8 tiếng/giây.\n- Lượng lời dẫn của từng cảnh phải tương xứng với độ dài cảnh đó.\n\nĐỊNH DẠNG BẮT BUỘC\nGiữ nguyên các nhãn tiếng Anh \"Scene\", \"Visual/Action:\", \"Dialogue/Narration:\" để hệ thống đọc tự động.\n\nScene N — MM:SS–MM:SS\nVisual/Action:\n<hình ảnh, góc quay, chuyển động, chữ trên màn hình>\nDialogue/Narration:\n<lời sẽ được đọc thành tiếng — không ghi chú đạo diễn trong phần này>\n\n- Không dùng markdown (không **, #, bảng, gạch đầu dòng cho nhãn).\n- Không thêm tiêu đề, lời chào, giải thích hay ghi chú bên ngoài các cảnh.",
+      "score": 90.4,
+      "max_score": 100,
+      "percentage": 90.4,
+      "rule_based": {
+        "hard_score": 45.0,
+        "hard_max": 45,
+        "breakdown": {
+          "duration": 15.0,
+          "timeline": 5.0,
+          "completeness": 10.0,
+          "format": 5.0,
+          "speech_rate": 10.0
+        },
+        "duration_expected": 60,
+        "duration_actual": 60,
+        "duration_exact": true,
+        "duration_compliance": 1.0,
+        "timeline_valid": true,
+        "scene_count": 7,
+        "narration_words": 144,
+        "words_per_second": 2.4,
+        "issues": [],
+        "scenes": [
+          {
+            "number": 1,
+            "start": 0,
+            "end": 4,
+            "words": 13,
+            "valid_clock": true
+          },
+          {
+            "number": 2,
+            "start": 4,
+            "end": 10,
+            "words": 17,
+            "valid_clock": true
+          },
+          {
+            "number": 3,
+            "start": 10,
+            "end": 20,
+            "words": 21,
+            "valid_clock": true
+          },
+          {
+            "number": 4,
+            "start": 20,
+            "end": 34,
+            "words": 30,
+            "valid_clock": true
+          },
+          {
+            "number": 5,
+            "start": 34,
+            "end": 42,
+            "words": 19,
+            "valid_clock": true
+          },
+          {
+            "number": 6,
+            "start": 42,
+            "end": 50,
+            "words": 21,
+            "valid_clock": true
+          },
+          {
+            "number": 7,
+            "start": 50,
+            "end": 60,
+            "words": 23,
+            "valid_clock": true
+          }
+        ]
+      },
+      "llm_judge": {
+        "scores": {
+          "topic_relevance": 9,
+          "audience_fit": 8,
+          "structure": 9,
+          "pacing": 8,
+          "dialogue": 7,
+          "hook": 7,
+          "CTA": 9,
+          "coherence": 9
+        },
+        "issues": [
+          "Scene 1: Hook chưa đủ sức gây ấn tượng mạnh; nên thêm yếu tố cảm xúc như khuôn mặt buồn bã của học sinh hoặc âm thanh tiếng va chạm để ngay lập tức thu hút người xem.",
+          "Scene 3 & Scene 4: Nội dung lời dẫn quá dài so với thời lượng ngắn; cần rút ngắn câu, ví dụ: \"Bạo lực thể xác: đánh, trấn tiền. Bạo lực lời nói: lăng mạ, miệt thị.\" và \"Bạo lực mạng: tin đồn lan truyền 24/7, cô lập, tẩy chay.\"",
+          "Scene 2: Chia khung hình đôi có thể gây nhầm lẫn nếu không có lời dẫn liên kết rõ ràng; nên thêm câu ngắn như \"Dấu hiệu bạo lực có thể ẩn trong những khoảnh khắc yên lặng của con bạn và lo lắng của phụ huynh.\".",
+          "CTA: Gọi tổng đài 111 và lời kêu gọi “Nhấn Thích & Chia sẻ” xuất hiện gần nhau, gây lặp lại; có thể gộp lại thành một lời kêu gọi duy nhất ở cuối video để tránh rối mắt.",
+          "Scene 5: Khi hiển thị các biểu hiện (sợ đi học, sụt cân, rút lui) cần đồng thời minh hoạ bằng hình ảnh cụ thể thay chỉ dùng chữ phụ đề, để người xem dễ nhận diện và cảm nhận hơn."
+        ],
+        "missing_keys": [],
+        "soft_score": 45.4,
+        "soft_max": 55,
+        "judge_model": "groq/openai/gpt-oss-120b",
+        "raw_evaluation": "{\"scores\": {\"topic_relevance\": 9, \"audience_fit\": 8, \"structure\": 9, \"pacing\": 8, \"dialogue\": 7, \"hook\": 7, \"CTA\": 9, \"coherence\": 9}, \"issues\": [\"Scene 1: Hook chưa đủ sức gây ấn tượng mạnh; nên thêm yếu tố cảm xúc như khuôn mặt buồn bã của học sinh hoặc âm thanh tiếng va chạm để ngay lập tức thu hút người xem.\", \"Scene 3 & Scene 4: Nội dung lời dẫn quá dài so với thời lượng ngắn; cần rút ngắn câu, ví dụ: \\\"Bạo lực thể xác: đánh, trấn tiền. Bạo lực lời nói: lăng mạ, miệt thị.\\\" và \\\"Bạo lực mạng: tin đồn lan truyền 24/7, cô lập, tẩy chay.\\\"\", \"Scene 2: Chia khung hình đôi có thể gây nhầm lẫn nếu không có lời dẫn liên kết rõ ràng; nên thêm câu ngắn như \\\"Dấu hiệu bạo lực có thể ẩn trong những khoảnh khắc yên lặng của con bạn và lo lắng của phụ huynh.\\\".\", \"CTA: Gọi tổng đài 111 và lời kêu gọi “Nhấn Thích & Chia sẻ” xuất hiện gần nhau, gây lặp lại; có thể gộp lại thành một lời kêu gọi duy nhất ở cuối video để tránh rối mắt.\", \"Scene 5: Khi hiển thị các biểu hiện (sợ đi học, sụt cân, rút lui) cần đồng thời minh hoạ bằng hình ảnh cụ thể thay chỉ dùng chữ phụ đề, để người xem dễ nhận diện và cảm nhận hơn.\"]}",
+        "latency": 2.3951152999998158,
+        "usage": {
+          "input_tokens": 1329,
+          "output_tokens": 798,
+          "total_tokens": 2127
+        }
+      },
+      "issues": [
+        "Scene 1: Hook chưa đủ sức gây ấn tượng mạnh; nên thêm yếu tố cảm xúc như khuôn mặt buồn bã của học sinh hoặc âm thanh tiếng va chạm để ngay lập tức thu hút người xem.",
+        "Scene 3 & Scene 4: Nội dung lời dẫn quá dài so với thời lượng ngắn; cần rút ngắn câu, ví dụ: \"Bạo lực thể xác: đánh, trấn tiền. Bạo lực lời nói: lăng mạ, miệt thị.\" và \"Bạo lực mạng: tin đồn lan truyền 24/7, cô lập, tẩy chay.\"",
+        "Scene 2: Chia khung hình đôi có thể gây nhầm lẫn nếu không có lời dẫn liên kết rõ ràng; nên thêm câu ngắn như \"Dấu hiệu bạo lực có thể ẩn trong những khoảnh khắc yên lặng của con bạn và lo lắng của phụ huynh.\".",
+        "CTA: Gọi tổng đài 111 và lời kêu gọi “Nhấn Thích & Chia sẻ” xuất hiện gần nhau, gây lặp lại; có thể gộp lại thành một lời kêu gọi duy nhất ở cuối video để tránh rối mắt.",
+        "Scene 5: Khi hiển thị các biểu hiện (sợ đi học, sụt cân, rút lui) cần đồng thời minh hoạ bằng hình ảnh cụ thể thay chỉ dùng chữ phụ đề, để người xem dễ nhận diện và cảm nhận hơn.",
+        "Cải thiện tiêu chí 'dialogue' (hiện 7/10): Lời dẫn tự nhiên, dễ đọc thành tiếng, câu ngắn gọn.",
+        "Cải thiện tiêu chí 'hook' (hiện 7/10): 3–5 giây đầu đủ sức giữ chân người xem."
+      ]
+    },
+    {
+      "iteration": 3,
+      "mode": "revision",
+      "script": "Scene 1 — 00:00–00:04\nVisual/Action:\nCận cảnh chiếc cặp sách bị hất văng xuống sàn hành lang với tiếng va chạm mạnh. Máy quay chuyển nhanh sang ánh mắt sợ hãi, rấn nước mắt của một học sinh. Chữ xuất hiện: BẠO LỰC HỌC ĐƯỜNG - Đừng im lặng!\nDialogue/Narration:\nBạn có chắc con mình, hoặc chính bạn, đang an toàn ở trường?\n\nScene 2 — 00:04–00:10\nVisual/Action:\nKhung hình chia đôi: Bên trái học sinh THCS ngồi thu mình nhìn điện thoại im lặng, bên phải người mẹ đứng ngoài cửa thở dài đầy âu lo. Chữ trên màn hình: Dấu hiệu âm thầm.\nDialogue/Narration:\nDấu hiệu bạo lực thường ẩn sau sự im lặng của con và nỗi lo của cha mẹ.\n\nScene 3 — 00:10–00:20\nVisual/Action:\nĐoạn 1: Học sinh bị giật mạnh balo và xô ngã. Đoạn 2: Một nhóm bạn chỉ tay thì thầm xúc phạm, nạn nhân cúi gục mặt né tránh. Chữ nổi bật: Thể xác & Lời nói.\nDialogue/Narration:\nĐó là bạo lực thể xác như đánh đập, trấn tiền. Hay bạo lực lời nói như lăng mạ, miệt thị.\n\nScene 4 — 00:20–00:32\nVisual/Action:\nMàn hình điện thoại liên tục nổ tin nhắn miệt thị trong nhóm chat, chuyển cảnh học sinh ngồi một mình ở góc sân trường vắng lặng. Chữ xuất hiện: Bạo lực mạng & Cô lập.\nDialogue/Narration:\nBạo lực mạng với tin đồn lan truyền 24/7, cùng hành vi cô lập, tẩy chay khiến nạn nhân hoàn toàn đơn độc.\n\nScene 5 — 00:32–00:44\nVisual/Action:\nChuỗi hình ảnh nhanh: Học sinh kéo chăn trùm đầu sợ hãi khi chuông báo thức reo, đẩy bỏ bát cơm đầy, ngồi thu mình ở góc phòng từ chối nói chuyện. Người mẹ nhẹ nhàng đến bên nắm lấy tay con. Chữ: Nhận diện thay đổi.\nDialogue/Narration:\nKhi trẻ sợ đi học, bỏ ăn hay thu mình lại, đó là lúc con đang rất cần được bảo vệ.\n\nScene 6 — 00:44–01:00\nVisual/Action:\nHọc sinh mỉm cười tự tin khi trải lòng với cô giáo tư vấn. Đồ họa số điện thoại 111 xuất hiện to, rõ cùng biểu tượng Thích và Chia sẻ nhấp nháy trên giao diện YouTube Shorts. Chữ: Tổng đài 111 — Chung tay bảo vệ con trẻ!\nDialogue/Narration:\nĐừng chịu đựng một mình. Hãy chia sẻ với thầy cô, cha mẹ hoặc gọi ngay Tổng đài 111. Nhấn Thích và Chia sẻ video này vì một môi trường học đường an toàn!",
+      "prompt": "Bạn đang chỉnh sửa một kịch bản video ngắn dựa trên kết quả đánh giá tự động.\n\n=== YÊU CẦU GỐC ===\n[ROLE]\nBạn là biên kịch video ngắn và chiến lược gia nội dung chuyên nghiệp, chuyên về:\n- Video giáo dục dạng ngắn cho TikTok, YouTube Shorts, Reels\n- Kể chuyện bằng hình ảnh và nhịp dựng nhanh\n- Viết lời dẫn (voice-over) tự nhiên, phù hợp từng nhóm khán giả\n\n[ACTION]\nChuyển chủ đề và yêu cầu sản xuất dưới đây thành một kịch bản mạch lạc, hấp dẫn và\nsẵn sàng sản xuất.\n\n[CONTEXT]\nYÊU CẦU CỦA NGƯỜI DÙNG\nChủ đề: Bạo lực học đường\nThời lượng: 1 phút (60 giây)\nNền tảng: YouTube Shorts\nĐối tượng khán giả: học sinh THCS và phụ huynh\nGHI CHÚ TỪ NGƯỜI DÙNG\nĐịnh hướng nội dung: Nhận diện các dạng bạo lực học đường và cách tìm kiếm sự giúp đỡ\n\nKIẾN THỨC ĐƯỢC TRUY XUẤT (định hướng, không ghi đè yêu cầu của người dùng)\nCấu trúc: Hook -> Introduction -> Main Content -> Conclusion -> CTA\nNhịp độ: Nhịp nhanh; đổi hình ảnh mỗi 3–8 giây; Hook nằm trong 3–5 giây đầu; mỗi cảnh truyền tải đúng một ý.\nLời thoại: Giọng văn tự nhiên như đang nói chuyện, câu ngắn, dùng ngôn ngữ phù hợp với khán giả; tránh thuật ngữ khó nếu không giải thích.\n\nNGÔN NGỮ ĐẦU RA\nToàn bộ nội dung kịch bản (Visual/Action và Dialogue/Narration) phải viết bằng tiếng Việt,\nkể cả khi chủ đề hoặc dữ liệu đầu vào là tiếng Anh. Chỉ giữ nguyên tiếng Anh cho tên riêng,\nthương hiệu hoặc thuật ngữ kỹ thuật không có bản dịch tự nhiên.\n\n[EXECUTE]\n1. Xây dựng kịch bản thành chuỗi cảnh theo mạch Hook → Introduction → Main Content → Conclusion → CTA.\n2. Mỗi cảnh gồm: số thứ tự, thời gian bắt đầu–kết thúc (MM:SS), Visual/Action, Dialogue/Narration.\n3. Điều chỉnh từ vựng và độ sâu giải thích theo học sinh THCS và phụ huynh.\n4. Điều chỉnh nhịp độ và cách trình bày theo YouTube Shorts.\n5. Giữ mạch lạc từ đầu đến cuối; hình ảnh phải khớp với lời dẫn.\n\nQUY TẮC THỜI LƯỢNG\n- Cảnh đầu tiên bắt đầu tại 00:00; cảnh cuối cùng kết thúc CHÍNH XÁC tại 01:00 (60 giây).\n- Mỗi cảnh bắt đầu đúng tại thời điểm cảnh trước kết thúc: không hở, không chồng lấn.\n- Tổng lời dẫn khoảng 132–216 tiếng (âm tiết), tương đương tốc độ đọc tự nhiên ~2,8 tiếng/giây.\n- Lượng lời dẫn của từng cảnh phải tương xứng với độ dài cảnh đó.\n\nĐỊNH DẠNG BẮT BUỘC\nGiữ nguyên các nhãn tiếng Anh \"Scene\", \"Visual/Action:\", \"Dialogue/Narration:\" để hệ thống đọc tự động.\n\nScene N — MM:SS–MM:SS\nVisual/Action:\n<hình ảnh, góc quay, chuyển động, chữ trên màn hình>\nDialogue/Narration:\n<lời sẽ được đọc thành tiếng — không ghi chú đạo diễn trong phần này>\n\n- Không dùng markdown (không **, #, bảng, gạch đầu dòng cho nhãn).\n- Không thêm tiêu đề, lời chào, giải thích hay ghi chú bên ngoài các cảnh.\n\n=== KỊCH BẢN HIỆN TẠI (phiên bản 2, đạt 90.4%) ===\nScene 1 — 00:00–00:04\nVisual/Action:\nCận cảnh một chiếc cặp sách rơi mạnh xuống sàn hành lang lớp học, sách vở văng ra. Góc quay nghiêng sống động. Chữ xuất hiện nhanh: BẠO LỰC HỌC ĐƯỜNG - Không chỉ là đánh nhau!\nDialogue/Narration:\nBạo lực học đường không chỉ là những cú đấm hay xô xát.\n\nScene 2 — 00:04–00:10\nVisual/Action:\nKhung hình chia đôi: Bên trái là học sinh THCS lặng lẽ nhìn điện thoại, bên phải là người mẹ lo lắng nhìn qua khe cửa. Chữ trên màn hình: Nhận diện dấu hiệu – Nói lên ngay.\nDialogue/Narration:\nNó âm thầm diễn ra mỗi ngày dưới nhiều hình thức mà chúng ta dễ bỏ lỡ.\n\nScene 3 — 00:10–00:20\nVisual/Action:\nChuyển cảnh nhanh 2 phân đoạn. Đoạn 1: Học sinh bị giật balo, vắt nạt. Đoạn 2: Một nhóm bạn chỉ tay thì thầm, nạn nhân cúi mặt. Chữ nổi bật: Thể xác & Lời nói.\nDialogue/Narration:\nĐó là bạo lực thể xác như đánh đập, trấn tiền. Hay bạo lực lời nói như lăng mạ, miệt thị.\n\nScene 4 — 00:20–00:34\nVisual/Action:\nMàn hình điện thoại hiển thị hàng loạt tin nhắn xúc phạm trong nhóm chat, chuyển sang cảnh học sinh ngồi một mình ở góc sân trường cô quạnh. Chữ xuất hiện: Bạo lực mạng & Cô lập.\nDialogue/Narration:\nNguy hiểm hơn là bạo lực mạng với tin đồn độc hại lan truyền 24/7, cùng hành vi cô lập, tẩy chay khiến nạn nhân hoàn toàn đơn độc.\n\nScene 5 — 00:34–00:42\nVisual/Action:\nHọc sinh ngồi gục đầu trầm ngâm góc bàn, dáng vẻ âu lo. Chữ phụ đề xuất hiện: Sợ đi học - Sụt cân - Rút lui. Ngay sau đó, người mẹ ngồi xuống nắm lấy tay con động viên dịu dàng.\nDialogue/Narration:\nNếu thấy trẻ sợ đến trường, sụt giảm học lực hay thu mình lại, đừng bao giờ im lặng.\n\nScene 6 — 00:42–00:50\nVisual/Action:\nHọc sinh gật đầu tin tưởng khi nói chuyện với cô giáo tư vấn. Đồ họa số điện thoại 111 xuất hiện to, rõ ràng giữa màn hình. Chữ: Gọi Tổng đài 111.\nDialogue/Narration:\nHãy chia sẻ với cha mẹ, thầy cô hoặc gọi ngay Tổng đài 111. Tìm sự giúp đỡ là dũng cảm.\n\nScene 7 — 00:50–01:00\nVisual/Action:\nHọc sinh mỉm cười cùng bạn bè bước ra sân trường ngập nắng. Biểu tượng nút Thích và Chia sẻ nhấp nháy nổi bật trên giao diện YouTube Shorts. Chữ: Vì môi trường học đường an toàn!\nDialogue/Narration:\nĐừng để ai phải chịu đựng một mình. Nhấn Thích và Chia sẻ video này vì một môi trường học đường an toàn!\n\n=== CÁC VẤN ĐỀ CẦN SỬA (ưu tiên từ trên xuống) ===\n1. Scene 1: Hook chưa đủ sức gây ấn tượng mạnh; nên thêm yếu tố cảm xúc như khuôn mặt buồn bã của học sinh hoặc âm thanh tiếng va chạm để ngay lập tức thu hút người xem.\n2. Scene 3 & Scene 4: Nội dung lời dẫn quá dài so với thời lượng ngắn; cần rút ngắn câu, ví dụ: \"Bạo lực thể xác: đánh, trấn tiền. Bạo lực lời nói: lăng mạ, miệt thị.\" và \"Bạo lực mạng: tin đồn lan truyền 24/7, cô lập, tẩy chay.\"\n3. Scene 2: Chia khung hình đôi có thể gây nhầm lẫn nếu không có lời dẫn liên kết rõ ràng; nên thêm câu ngắn như \"Dấu hiệu bạo lực có thể ẩn trong những khoảnh khắc yên lặng của con bạn và lo lắng của phụ huynh.\".\n4. CTA: Gọi tổng đài 111 và lời kêu gọi “Nhấn Thích & Chia sẻ” xuất hiện gần nhau, gây lặp lại; có thể gộp lại thành một lời kêu gọi duy nhất ở cuối video để tránh rối mắt.\n5. Scene 5: Khi hiển thị các biểu hiện (sợ đi học, sụt cân, rút lui) cần đồng thời minh hoạ bằng hình ảnh cụ thể thay chỉ dùng chữ phụ đề, để người xem dễ nhận diện và cảm nhận hơn.\n6. Cải thiện tiêu chí 'dialogue' (hiện 7/10): Lời dẫn tự nhiên, dễ đọc thành tiếng, câu ngắn gọn.\n7. Cải thiện tiêu chí 'hook' (hiện 7/10): 3–5 giây đầu đủ sức giữ chân người xem.\n\n=== NHIỆM VỤ ===\nViết lại TOÀN BỘ kịch bản thành phiên bản mới:\n- Sửa trực tiếp từng vấn đề ở trên.\n- Giữ lại những phần đang tốt (ý tưởng, hình ảnh, câu chữ hay).\n- Không giải thích những gì đã sửa.\n\nQUY TẮC THỜI LƯỢNG\n- Cảnh đầu tiên bắt đầu tại 00:00; cảnh cuối cùng kết thúc CHÍNH XÁC tại 01:00 (60 giây).\n- Mỗi cảnh bắt đầu đúng tại thời điểm cảnh trước kết thúc: không hở, không chồng lấn.\n- Tổng lời dẫn khoảng 132–216 tiếng (âm tiết), tương đương tốc độ đọc tự nhiên ~2,8 tiếng/giây.\n- Lượng lời dẫn của từng cảnh phải tương xứng với độ dài cảnh đó.\n\nĐỊNH DẠNG BẮT BUỘC\nGiữ nguyên các nhãn tiếng Anh \"Scene\", \"Visual/Action:\", \"Dialogue/Narration:\" để hệ thống đọc tự động.\n\nScene N — MM:SS–MM:SS\nVisual/Action:\n<hình ảnh, góc quay, chuyển động, chữ trên màn hình>\nDialogue/Narration:\n<lời sẽ được đọc thành tiếng — không ghi chú đạo diễn trong phần này>\n\n- Không dùng markdown (không **, #, bảng, gạch đầu dòng cho nhãn).\n- Không thêm tiêu đề, lời chào, giải thích hay ghi chú bên ngoài các cảnh.",
+      "score": 90.9,
+      "max_score": 100,
+      "percentage": 90.9,
+      "rule_based": {
+        "hard_score": 44.8,
+        "hard_max": 45,
+        "breakdown": {
+          "duration": 15.0,
+          "timeline": 5.0,
+          "completeness": 10.0,
+          "format": 5.0,
+          "speech_rate": 9.8
+        },
+        "duration_expected": 60,
+        "duration_actual": 60,
+        "duration_exact": true,
+        "duration_compliance": 1.0,
+        "timeline_valid": true,
+        "scene_count": 6,
+        "narration_words": 131,
+        "words_per_second": 2.18,
+        "issues": [
+          "Lời dẫn có 131 tiếng cho 60 giây (2.2 tiếng/giây). Thêm lời dẫn để đạt khoảng 132–216 tiếng."
+        ],
+        "scenes": [
+          {
+            "number": 1,
+            "start": 0,
+            "end": 4,
+            "words": 13,
+            "valid_clock": true
+          },
+          {
+            "number": 2,
+            "start": 4,
+            "end": 10,
+            "words": 18,
+            "valid_clock": true
+          },
+          {
+            "number": 3,
+            "start": 10,
+            "end": 20,
+            "words": 21,
+            "valid_clock": true
+          },
+          {
+            "number": 4,
+            "start": 20,
+            "end": 32,
+            "words": 24,
+            "valid_clock": true
+          },
+          {
+            "number": 5,
+            "start": 32,
+            "end": 44,
+            "words": 21,
+            "valid_clock": true
+          },
+          {
+            "number": 6,
+            "start": 44,
+            "end": 60,
+            "words": 34,
+            "valid_clock": true
+          }
+        ]
+      },
+      "llm_judge": {
+        "scores": {
+          "topic_relevance": 9,
+          "audience_fit": 8,
+          "structure": 9,
+          "pacing": 7,
+          "dialogue": 7,
+          "hook": 9,
+          "CTA": 9,
+          "coherence": 9
+        },
+        "issues": [
+          "Scene 2: Hình ảnh mẹ đứng ngoài cửa chưa truyền tải đủ lo lắng; nên thay bằng cảnh mẹ nhìn điện thoại hoặc trò chuyện với giáo viên để nhấn mạnh mối quan hệ cha mẹ-học sinh.",
+          "Dialogue/Narration: Một số câu quá dài cho video 1 phút (ví dụ Scene 3 và Scene 4); cần rút ngắn thành câu ngắn, dễ đọc để tránh vội vã.",
+          "Scene 5: Chuỗi hình ảnh nhanh có thể gây rối cho người xem; nên giảm số cảnh hoặc dùng chuyển cảnh mượt mà hơn để làm nổi bật hành động mẹ an ủi.",
+          "CTA: Thêm hashtag hoặc lời kêu gọi cụ thể cho nền tảng Shorts (ví dụ #BảoVệTrẻ) để tăng khả năng lan truyền.",
+          "Scene 6: Số điện thoại 111 xuất hiện quá nhanh; nên để trên màn hình ít nhất 3‑4 giây để người xem có thời gian ghi nhớ."
+        ],
+        "missing_keys": [],
+        "soft_score": 46.1,
+        "soft_max": 55,
+        "judge_model": "groq/openai/gpt-oss-120b",
+        "raw_evaluation": "{\"scores\": {\"topic_relevance\": 9, \"audience_fit\": 8, \"structure\": 9, \"pacing\": 7, \"dialogue\": 7, \"hook\": 9, \"CTA\": 9, \"coherence\": 9}, \"issues\": [\"Scene 2: Hình ảnh mẹ đứng ngoài cửa chưa truyền tải đủ lo lắng; nên thay bằng cảnh mẹ nhìn điện thoại hoặc trò chuyện với giáo viên để nhấn mạnh mối quan hệ cha mẹ-học sinh.\", \"Dialogue/Narration: Một số câu quá dài cho video 1 phút (ví dụ Scene 3 và Scene 4); cần rút ngắn thành câu ngắn, dễ đọc để tránh vội vã.\", \"Scene 5: Chuỗi hình ảnh nhanh có thể gây rối cho người xem; nên giảm số cảnh hoặc dùng chuyển cảnh mượt mà hơn để làm nổi bật hành động mẹ an ủi.\", \"CTA: Thêm hashtag hoặc lời kêu gọi cụ thể cho nền tảng Shorts (ví dụ #BảoVệTrẻ) để tăng khả năng lan truyền.\", \"Scene 6: Số điện thoại 111 xuất hiện quá nhanh; nên để trên màn hình ít nhất 3‑4 giây để người xem có thời gian ghi nhớ.\"]}",
+        "latency": 2.0757010999996055,
+        "usage": {
+          "input_tokens": 1264,
+          "output_tokens": 694,
+          "total_tokens": 1958
+        }
+      },
+      "issues": [
+        "Lời dẫn có 131 tiếng cho 60 giây (2.2 tiếng/giây). Thêm lời dẫn để đạt khoảng 132–216 tiếng.",
+        "Scene 2: Hình ảnh mẹ đứng ngoài cửa chưa truyền tải đủ lo lắng; nên thay bằng cảnh mẹ nhìn điện thoại hoặc trò chuyện với giáo viên để nhấn mạnh mối quan hệ cha mẹ-học sinh.",
+        "Dialogue/Narration: Một số câu quá dài cho video 1 phút (ví dụ Scene 3 và Scene 4); cần rút ngắn thành câu ngắn, dễ đọc để tránh vội vã.",
+        "Scene 5: Chuỗi hình ảnh nhanh có thể gây rối cho người xem; nên giảm số cảnh hoặc dùng chuyển cảnh mượt mà hơn để làm nổi bật hành động mẹ an ủi.",
+        "CTA: Thêm hashtag hoặc lời kêu gọi cụ thể cho nền tảng Shorts (ví dụ #BảoVệTrẻ) để tăng khả năng lan truyền.",
+        "Scene 6: Số điện thoại 111 xuất hiện quá nhanh; nên để trên màn hình ít nhất 3‑4 giây để người xem có thời gian ghi nhớ.",
+        "Cải thiện tiêu chí 'dialogue' (hiện 7/10): Lời dẫn tự nhiên, dễ đọc thành tiếng, câu ngắn gọn.",
+        "Cải thiện tiêu chí 'pacing' (hiện 7/10): Nhịp độ phù hợp nền tảng, phân bổ thời gian giữa các cảnh hợp lý."
+      ]
+    },
+    {
+      "iteration": 4,
+      "mode": "revision",
+      "script": "Scene 1 — 00:00–00:04\nVisual/Action:\nCận cảnh chiếc cặp sách bị hất văng xuống sàn hành lang. Máy quay chuyển nhanh sang ánh mắt sợ hãi của một học sinh. Chữ xuất hiện: BẠO LỰC HỌC ĐƯỜNG - Đừng im lặng!\nDialogue/Narration:\nBạn có chắc con mình, hoặc chính bạn, đang thực sự an toàn ở trường?\n\nScene 2 — 00:04–00:10\nVisual/Action:\nKhung hình chia đôi: Bên trái học sinh THCS ngồi thu mình ôm gối, bên phải người mẹ lo âu đọc tin nhắn thông báo từ giáo viên trên điện thoại. Chữ trên màn hình: Dấu hiệu âm thầm.\nDialogue/Narration:\nBạo lực học đường thường ẩn sau sự im lặng của con và nỗi lo âu từ cha mẹ.\n\nScene 3 — 00:10–00:20\nVisual/Action:\nCảnh 1: Một học sinh bị nhóm bạn xô ngã và giật balo. Cảnh 2: Nhóm bạn chỉ tay lăng mạ, nạn nhân cúi đầu né tránh. Chữ nổi bật: Bạo lực thể xác & Lời nói.\nDialogue/Narration:\nĐó có thể là bạo lực thể xác như xô xát, trấn tiền. Hoặc bạo lực lời nói như miệt thị, lăng mạ.\n\nScene 4 — 00:20–00:32\nVisual/Action:\nĐiện thoại dồn dập tin nhắn miệt thị trong nhóm chat trực tuyến. Chuyển cảnh nhẹ nhàng sang nạn nhân ngồi một mình lặng lẽ góc sân trường. Chữ xuất hiện: Bạo lực mạng & Cô lập.\nDialogue/Narration:\nNguy hiểm hơn là bạo lực mạng với tin đồn ác ý kéo dài. Cùng hành vi tẩy chay khiến con bị cô lập hoàn toàn.\n\nScene 5 — 00:32–00:44\nVisual/Action:\nChuyển cảnh mượt mà từ hình ảnh học sinh giật mình sợ hãi khi nghe chuông báo thức đến cảnh từ chối bữa ăn. Người mẹ nhẹ nhàng ngồi xuống, nắm lấy tay con ủi an. Chữ: Nhận diện và lắng nghe.\nDialogue/Narration:\nKhi con sợ đi học, đột ngột bỏ ăn hay thu mình lại, cha mẹ hãy ở bên và lắng nghe con ngay.\n\nScene 6 — 00:44–01:00\nVisual/Action:\nHọc sinh mỉm cười giải tỏa khi trò chuyện cùng cô giáo tư vấn. Đồ họa số điện thoại 111 cùng dòng chữ Tổng đài quốc gia 111 giữ cố định rõ ràng trên màn hình trong 5 giây. Kết thúc bằng nút Thích, Chia sẻ và hashtag #BaoVeTre trên giao diện YouTube Shorts.\nDialogue/Narration:\nCác em đừng chịu đựng một mình. Hãy chia sẻ với thầy cô, cha mẹ hoặc gọi ngay Tổng đài 111. Nhấn Thích, Chia sẻ video này và dùng hashtag #BaoVeTre để cùng chung tay bảo vệ học đường!",
+      "prompt": "Bạn đang chỉnh sửa một kịch bản video ngắn dựa trên kết quả đánh giá tự động.\n\n=== YÊU CẦU GỐC ===\n[ROLE]\nBạn là biên kịch video ngắn và chiến lược gia nội dung chuyên nghiệp, chuyên về:\n- Video giáo dục dạng ngắn cho TikTok, YouTube Shorts, Reels\n- Kể chuyện bằng hình ảnh và nhịp dựng nhanh\n- Viết lời dẫn (voice-over) tự nhiên, phù hợp từng nhóm khán giả\n\n[ACTION]\nChuyển chủ đề và yêu cầu sản xuất dưới đây thành một kịch bản mạch lạc, hấp dẫn và\nsẵn sàng sản xuất.\n\n[CONTEXT]\nYÊU CẦU CỦA NGƯỜI DÙNG\nChủ đề: Bạo lực học đường\nThời lượng: 1 phút (60 giây)\nNền tảng: YouTube Shorts\nĐối tượng khán giả: học sinh THCS và phụ huynh\nGHI CHÚ TỪ NGƯỜI DÙNG\nĐịnh hướng nội dung: Nhận diện các dạng bạo lực học đường và cách tìm kiếm sự giúp đỡ\n\nKIẾN THỨC ĐƯỢC TRUY XUẤT (định hướng, không ghi đè yêu cầu của người dùng)\nCấu trúc: Hook -> Introduction -> Main Content -> Conclusion -> CTA\nNhịp độ: Nhịp nhanh; đổi hình ảnh mỗi 3–8 giây; Hook nằm trong 3–5 giây đầu; mỗi cảnh truyền tải đúng một ý.\nLời thoại: Giọng văn tự nhiên như đang nói chuyện, câu ngắn, dùng ngôn ngữ phù hợp với khán giả; tránh thuật ngữ khó nếu không giải thích.\n\nNGÔN NGỮ ĐẦU RA\nToàn bộ nội dung kịch bản (Visual/Action và Dialogue/Narration) phải viết bằng tiếng Việt,\nkể cả khi chủ đề hoặc dữ liệu đầu vào là tiếng Anh. Chỉ giữ nguyên tiếng Anh cho tên riêng,\nthương hiệu hoặc thuật ngữ kỹ thuật không có bản dịch tự nhiên.\n\n[EXECUTE]\n1. Xây dựng kịch bản thành chuỗi cảnh theo mạch Hook → Introduction → Main Content → Conclusion → CTA.\n2. Mỗi cảnh gồm: số thứ tự, thời gian bắt đầu–kết thúc (MM:SS), Visual/Action, Dialogue/Narration.\n3. Điều chỉnh từ vựng và độ sâu giải thích theo học sinh THCS và phụ huynh.\n4. Điều chỉnh nhịp độ và cách trình bày theo YouTube Shorts.\n5. Giữ mạch lạc từ đầu đến cuối; hình ảnh phải khớp với lời dẫn.\n\nQUY TẮC THỜI LƯỢNG\n- Cảnh đầu tiên bắt đầu tại 00:00; cảnh cuối cùng kết thúc CHÍNH XÁC tại 01:00 (60 giây).\n- Mỗi cảnh bắt đầu đúng tại thời điểm cảnh trước kết thúc: không hở, không chồng lấn.\n- Tổng lời dẫn khoảng 132–216 tiếng (âm tiết), tương đương tốc độ đọc tự nhiên ~2,8 tiếng/giây.\n- Lượng lời dẫn của từng cảnh phải tương xứng với độ dài cảnh đó.\n\nĐỊNH DẠNG BẮT BUỘC\nGiữ nguyên các nhãn tiếng Anh \"Scene\", \"Visual/Action:\", \"Dialogue/Narration:\" để hệ thống đọc tự động.\n\nScene N — MM:SS–MM:SS\nVisual/Action:\n<hình ảnh, góc quay, chuyển động, chữ trên màn hình>\nDialogue/Narration:\n<lời sẽ được đọc thành tiếng — không ghi chú đạo diễn trong phần này>\n\n- Không dùng markdown (không **, #, bảng, gạch đầu dòng cho nhãn).\n- Không thêm tiêu đề, lời chào, giải thích hay ghi chú bên ngoài các cảnh.\n\n=== KỊCH BẢN HIỆN TẠI (phiên bản 3, đạt 90.9%) ===\nScene 1 — 00:00–00:04\nVisual/Action:\nCận cảnh chiếc cặp sách bị hất văng xuống sàn hành lang với tiếng va chạm mạnh. Máy quay chuyển nhanh sang ánh mắt sợ hãi, rấn nước mắt của một học sinh. Chữ xuất hiện: BẠO LỰC HỌC ĐƯỜNG - Đừng im lặng!\nDialogue/Narration:\nBạn có chắc con mình, hoặc chính bạn, đang an toàn ở trường?\n\nScene 2 — 00:04–00:10\nVisual/Action:\nKhung hình chia đôi: Bên trái học sinh THCS ngồi thu mình nhìn điện thoại im lặng, bên phải người mẹ đứng ngoài cửa thở dài đầy âu lo. Chữ trên màn hình: Dấu hiệu âm thầm.\nDialogue/Narration:\nDấu hiệu bạo lực thường ẩn sau sự im lặng của con và nỗi lo của cha mẹ.\n\nScene 3 — 00:10–00:20\nVisual/Action:\nĐoạn 1: Học sinh bị giật mạnh balo và xô ngã. Đoạn 2: Một nhóm bạn chỉ tay thì thầm xúc phạm, nạn nhân cúi gục mặt né tránh. Chữ nổi bật: Thể xác & Lời nói.\nDialogue/Narration:\nĐó là bạo lực thể xác như đánh đập, trấn tiền. Hay bạo lực lời nói như lăng mạ, miệt thị.\n\nScene 4 — 00:20–00:32\nVisual/Action:\nMàn hình điện thoại liên tục nổ tin nhắn miệt thị trong nhóm chat, chuyển cảnh học sinh ngồi một mình ở góc sân trường vắng lặng. Chữ xuất hiện: Bạo lực mạng & Cô lập.\nDialogue/Narration:\nBạo lực mạng với tin đồn lan truyền 24/7, cùng hành vi cô lập, tẩy chay khiến nạn nhân hoàn toàn đơn độc.\n\nScene 5 — 00:32–00:44\nVisual/Action:\nChuỗi hình ảnh nhanh: Học sinh kéo chăn trùm đầu sợ hãi khi chuông báo thức reo, đẩy bỏ bát cơm đầy, ngồi thu mình ở góc phòng từ chối nói chuyện. Người mẹ nhẹ nhàng đến bên nắm lấy tay con. Chữ: Nhận diện thay đổi.\nDialogue/Narration:\nKhi trẻ sợ đi học, bỏ ăn hay thu mình lại, đó là lúc con đang rất cần được bảo vệ.\n\nScene 6 — 00:44–01:00\nVisual/Action:\nHọc sinh mỉm cười tự tin khi trải lòng với cô giáo tư vấn. Đồ họa số điện thoại 111 xuất hiện to, rõ cùng biểu tượng Thích và Chia sẻ nhấp nháy trên giao diện YouTube Shorts. Chữ: Tổng đài 111 — Chung tay bảo vệ con trẻ!\nDialogue/Narration:\nĐừng chịu đựng một mình. Hãy chia sẻ với thầy cô, cha mẹ hoặc gọi ngay Tổng đài 111. Nhấn Thích và Chia sẻ video này vì một môi trường học đường an toàn!\n\n=== CÁC VẤN ĐỀ CẦN SỬA (ưu tiên từ trên xuống) ===\n1. Lời dẫn có 131 tiếng cho 60 giây (2.2 tiếng/giây). Thêm lời dẫn để đạt khoảng 132–216 tiếng.\n2. Scene 2: Hình ảnh mẹ đứng ngoài cửa chưa truyền tải đủ lo lắng; nên thay bằng cảnh mẹ nhìn điện thoại hoặc trò chuyện với giáo viên để nhấn mạnh mối quan hệ cha mẹ-học sinh.\n3. Dialogue/Narration: Một số câu quá dài cho video 1 phút (ví dụ Scene 3 và Scene 4); cần rút ngắn thành câu ngắn, dễ đọc để tránh vội vã.\n4. Scene 5: Chuỗi hình ảnh nhanh có thể gây rối cho người xem; nên giảm số cảnh hoặc dùng chuyển cảnh mượt mà hơn để làm nổi bật hành động mẹ an ủi.\n5. CTA: Thêm hashtag hoặc lời kêu gọi cụ thể cho nền tảng Shorts (ví dụ #BảoVệTrẻ) để tăng khả năng lan truyền.\n6. Scene 6: Số điện thoại 111 xuất hiện quá nhanh; nên để trên màn hình ít nhất 3‑4 giây để người xem có thời gian ghi nhớ.\n7. Cải thiện tiêu chí 'dialogue' (hiện 7/10): Lời dẫn tự nhiên, dễ đọc thành tiếng, câu ngắn gọn.\n8. Cải thiện tiêu chí 'pacing' (hiện 7/10): Nhịp độ phù hợp nền tảng, phân bổ thời gian giữa các cảnh hợp lý.\n\n=== NHIỆM VỤ ===\nViết lại TOÀN BỘ kịch bản thành phiên bản mới:\n- Sửa trực tiếp từng vấn đề ở trên.\n- Giữ lại những phần đang tốt (ý tưởng, hình ảnh, câu chữ hay).\n- Không giải thích những gì đã sửa.\n\nQUY TẮC THỜI LƯỢNG\n- Cảnh đầu tiên bắt đầu tại 00:00; cảnh cuối cùng kết thúc CHÍNH XÁC tại 01:00 (60 giây).\n- Mỗi cảnh bắt đầu đúng tại thời điểm cảnh trước kết thúc: không hở, không chồng lấn.\n- Tổng lời dẫn khoảng 132–216 tiếng (âm tiết), tương đương tốc độ đọc tự nhiên ~2,8 tiếng/giây.\n- Lượng lời dẫn của từng cảnh phải tương xứng với độ dài cảnh đó.\n\nĐỊNH DẠNG BẮT BUỘC\nGiữ nguyên các nhãn tiếng Anh \"Scene\", \"Visual/Action:\", \"Dialogue/Narration:\" để hệ thống đọc tự động.\n\nScene N — MM:SS–MM:SS\nVisual/Action:\n<hình ảnh, góc quay, chuyển động, chữ trên màn hình>\nDialogue/Narration:\n<lời sẽ được đọc thành tiếng — không ghi chú đạo diễn trong phần này>\n\n- Không dùng markdown (không **, #, bảng, gạch đầu dòng cho nhãn).\n- Không thêm tiêu đề, lời chào, giải thích hay ghi chú bên ngoài các cảnh.",
+      "score": 87.2,
+      "max_score": 100,
+      "percentage": 87.2,
+      "rule_based": {
+        "hard_score": 42.5,
+        "hard_max": 45,
+        "breakdown": {
+          "duration": 15.0,
+          "timeline": 5.0,
+          "completeness": 10.0,
+          "format": 2.5,
+          "speech_rate": 10.0
+        },
+        "duration_expected": 60,
+        "duration_actual": 60,
+        "duration_exact": true,
+        "duration_compliance": 1.0,
+        "timeline_valid": true,
+        "scene_count": 6,
+        "narration_words": 145,
+        "words_per_second": 2.42,
+        "issues": [
+          "Một số cảnh thiếu mốc thời gian dạng 'MM:SS–MM:SS' trong tiêu đề."
+        ],
+        "scenes": [
+          {
+            "number": 1,
+            "start": 0,
+            "end": 4,
+            "words": 15,
+            "valid_clock": true
+          },
+          {
+            "number": 2,
+            "start": 4,
+            "end": 10,
+            "words": 19,
+            "valid_clock": true
+          },
+          {
+            "number": 3,
+            "start": 10,
+            "end": 20,
+            "words": 23,
+            "valid_clock": true
+          },
+          {
+            "number": 4,
+            "start": 20,
+            "end": 32,
+            "words": 26,
+            "valid_clock": true
+          },
+          {
+            "number": 5,
+            "start": 32,
+            "end": 44,
+            "words": 23,
+            "valid_clock": true
+          },
+          {
+            "number": 6,
+            "start": 44,
+            "end": 60,
+            "words": 39,
+            "valid_clock": true
+          }
+        ]
+      },
+      "llm_judge": {
+        "scores": {
+          "topic_relevance": 9,
+          "audience_fit": 8,
+          "structure": 8,
+          "pacing": 7,
+          "dialogue": 7,
+          "hook": 9,
+          "CTA": 9,
+          "coherence": 8
+        },
+        "issues": [
+          "Scene 2: Nội dung lời dẫn hơi chung chung, chưa nêu rõ dấu hiệu cụ thể của bạo lực; nên thêm ví dụ ngắn như “con không muốn nói chuyện, luôn trốn tránh bạn bè”.",
+          "Scene 4: Chuyển cảnh từ tin nhắn mạng sang nạn nhân ngồi một mình chưa mượt mà; cần thêm hiệu ứng chuyển tiếp (ví dụ: màn hình chập dần thành khuôn mặt cô đơn) để liên kết hai hình ảnh.",
+          "Scene 5: Mô tả hình ảnh “chuông báo thức → từ chối bữa ăn” gây nhầm lẫn, không rõ mối liên hệ; nên thay bằng cảnh con rơi lệ khi chuẩn bị ra trường hoặc không muốn lên lớp, rồi mẹ an ủi.",
+          "Dialogue: Nhiều câu dẫn dài (khoảng 8-10 từ) có thể vượt quá thời gian cho mỗi cảnh 1‑2 giây; cần rút gọn thành câu ngắn, dễ đọc như “Bạo lực không chỉ là đánh nhau, mà còn là lời nói đau đớn”.",
+          "CTA: Số điện thoại 111 xuất hiện 5 giây nhưng không có chỉ dẫn về cách gọi (ví dụ: “Gọi 111 ngay khi cần giúp đỡ”). nên thêm lời nhắc ngắn gọn để người xem nhớ hành động."
+        ],
+        "missing_keys": [],
+        "soft_score": 44.7,
+        "soft_max": 55,
+        "judge_model": "groq/openai/gpt-oss-120b",
+        "raw_evaluation": "{\"scores\":{\"topic_relevance\":9,\"audience_fit\":8,\"structure\":8,\"pacing\":7,\"dialogue\":7,\"hook\":9,\"CTA\":9,\"coherence\":8},\"issues\":[\"Scene 2: Nội dung lời dẫn hơi chung chung, chưa nêu rõ dấu hiệu cụ thể của bạo lực; nên thêm ví dụ ngắn như “con không muốn nói chuyện, luôn trốn tránh bạn bè”.\",\"Scene 4: Chuyển cảnh từ tin nhắn mạng sang nạn nhân ngồi một mình chưa mượt mà; cần thêm hiệu ứng chuyển tiếp (ví dụ: màn hình chập dần thành khuôn mặt cô đơn) để liên kết hai hình ảnh.\",\"Scene 5: Mô tả hình ảnh “chuông báo thức → từ chối bữa ăn” gây nhầm lẫn, không rõ mối liên hệ; nên thay bằng cảnh con rơi lệ khi chuẩn bị ra trường hoặc không muốn lên lớp, rồi mẹ an ủi.\",\"Dialogue: Nhiều câu dẫn dài (khoảng 8-10 từ) có thể vượt quá thời gian cho mỗi cảnh 1‑2 giây; cần rút gọn thành câu ngắn, dễ đọc như “Bạo lực không chỉ là đánh nhau, mà còn là lời nói đau đớn”.\",\"CTA: Số điện thoại 111 xuất hiện 5 giây nhưng không có chỉ dẫn về cách gọi (ví dụ: “Gọi 111 ngay khi cần giúp đỡ”). nên thêm lời nhắc ngắn gọn để người xem nhớ hành động.\"]}",
+        "latency": 2.4192766999995,
+        "usage": {
+          "input_tokens": 1283,
+          "output_tokens": 801,
+          "total_tokens": 2084
+        }
+      },
+      "issues": [
+        "Một số cảnh thiếu mốc thời gian dạng 'MM:SS–MM:SS' trong tiêu đề.",
+        "Scene 2: Nội dung lời dẫn hơi chung chung, chưa nêu rõ dấu hiệu cụ thể của bạo lực; nên thêm ví dụ ngắn như “con không muốn nói chuyện, luôn trốn tránh bạn bè”.",
+        "Scene 4: Chuyển cảnh từ tin nhắn mạng sang nạn nhân ngồi một mình chưa mượt mà; cần thêm hiệu ứng chuyển tiếp (ví dụ: màn hình chập dần thành khuôn mặt cô đơn) để liên kết hai hình ảnh.",
+        "Scene 5: Mô tả hình ảnh “chuông báo thức → từ chối bữa ăn” gây nhầm lẫn, không rõ mối liên hệ; nên thay bằng cảnh con rơi lệ khi chuẩn bị ra trường hoặc không muốn lên lớp, rồi mẹ an ủi.",
+        "Dialogue: Nhiều câu dẫn dài (khoảng 8-10 từ) có thể vượt quá thời gian cho mỗi cảnh 1‑2 giây; cần rút gọn thành câu ngắn, dễ đọc như “Bạo lực không chỉ là đánh nhau, mà còn là lời nói đau đớn”.",
+        "CTA: Số điện thoại 111 xuất hiện 5 giây nhưng không có chỉ dẫn về cách gọi (ví dụ: “Gọi 111 ngay khi cần giúp đỡ”). nên thêm lời nhắc ngắn gọn để người xem nhớ hành động.",
+        "Cải thiện tiêu chí 'dialogue' (hiện 7/10): Lời dẫn tự nhiên, dễ đọc thành tiếng, câu ngắn gọn.",
+        "Cải thiện tiêu chí 'pacing' (hiện 7/10): Nhịp độ phù hợp nền tảng, phân bổ thời gian giữa các cảnh hợp lý."
+      ]
+    }
+  ]
+}

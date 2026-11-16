@@ -1,0 +1,52 @@
+[
+  {
+    "id": "TC001",
+    "topic": "AI robots",
+    "duration": 1,
+    "platform": "TikTok",
+    "audience": "beginner"
+  },
+  {
+    "id": "TC002",
+    "topic": "Cybersecurity basics",
+    "duration": 2,
+    "platform": "YouTube Shorts",
+    "audience": "university students"
+  },
+  {
+    "id": "TC003",
+    "topic": "Machine Learning explained",
+    "duration": 3,
+    "platform": "TikTok",
+    "audience": "beginner"
+  },
+  {
+    "id": "TC004",
+    "topic": "Large Language Models",
+    "duration": 4,
+    "platform": "YouTube",
+    "audience": "technology enthusiasts"
+  },
+  {
+    "id": "TC005",
+    "topic": "AI in cybersecurity",
+    "duration": 5,
+    "platform": "YouTube",
+    "audience": "university students"
+  },
+  {
+    "id": "TC006",
+    "topic": "Bạo lực học đường",
+    "duration": 1,
+    "platform": "YouTube Shorts",
+    "audience": "học sinh THCS và phụ huynh",
+    "screenplay": "Nhận diện các dạng bạo lực học đường và cách tìm kiếm sự giúp đỡ."
+  },
+  {
+    "id": "TC007",
+    "topic": "Mẹo tiết kiệm tiền cho sinh viên",
+    "duration": 0.5,
+    "platform": "TikTok",
+    "audience": "sinh viên năm nhất"
+  }
+]

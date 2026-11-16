@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-script-agent"
+version = "1.0.0"
+description = "Closed-loop short-video script generation with LLMs and prompt-engineering frameworks"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["pydantic>=2.0", "python-dotenv>=1.0"]
+
+[project.optional-dependencies]
+gemini = ["google-genai>=1.0"]
+openai = ["openai>=1.40"]
+groq = ["groq>=0.11"]
+all = ["google-genai>=1.0", "openai>=1.40", "groq>=0.11"]
+dev = ["pytest>=8.0", "ruff>=0.5"]
+
+[project.scripts]
+script-agent = "script_agent.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["script_agent*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]
